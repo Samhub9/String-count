@@ -1,0 +1,8 @@
+str1=str(input("Please enter a string: "))
+
+res={} 
+  
+for key in str1: 
+    res[key]=res.get(key,0)+1
+   
+print(str(res)) 
